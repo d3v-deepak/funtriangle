@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap");
+body {
+  font-family: "Padauk", sans-serif;
+}
+.container {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+.question-container {
+  padding: 20px;
+}
+label {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.question-container p {
+  font-size: 1.5rem;
+}
+
+button {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: #fbbf24;
+  border-radius: 10px;
+  /* color: clac; */
+}
+.output-box {
+  font-size: 3rem;
+}

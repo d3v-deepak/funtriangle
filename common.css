@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap");
+
+:root {
+  --primary-color: #fbbf24;
+}
+
+.hypo-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+.hypo-container h1 {
+  font-size: 3rem;
+}
+nav {
+  background-color: var(--primary-color);
+  height: 6rem;
+  width: 100%;
+}
+body {
+  margin: 0px;
+  font-family: "Source Code Pro", monospace;
+}
+.brand-name {
+  font-size: 3rem;
+}
+.brand-name ul {
+  font-size: 1rem;
+  text-align: right;
+  display: inline;
+  font-weight: 700;
+  padding: 2rem;
+  /* text-decoration: none; */
+  margin-right: 10px;
+}
+li {
+  display: inline;
+  /* cursor: pointer; */
+}
+.hypotenuse-btn {
+  display: block;
+}
+.hypo-container label {
+  margin: 2rem;
+  font-size: 2rem;
+}
+.hypo-container side-input {
+  font-size: 2rem;
+  margin: 2rem;
+}
+#hypotenuse-btn {
+  margin-top: 2rem;
+  font-size: 2rem;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 10px;
+}
+.hypotenuse-output {
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 1rem;
+}
